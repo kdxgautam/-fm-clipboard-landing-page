@@ -1,9 +1,9 @@
 :root{
-    --Strong Cyan: hsl(171, 66%, 44%)
-    --Light-Blue: hsl(233, 100%, 69%)
-    --Dark-Grayish Blue: hsl(210, 10%, 33%)
-    --Grayish-Blue: hsl(201, 11%, 66%)
-    --font-family: 'Bai Jamjuree', sans-serif;
+    --Strong-Cyan : hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue : hsl(201, 11%, 66%);
+    --font-family : 'Bai Jamjuree', sans-serif;
 }
 
 *{
@@ -11,4 +11,77 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+
+.slide1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_logo{
+    max-height: 100px;
+    max-width: 100px;
+    margin-bottom: 30px;
+}
+
+.textbox_slide1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.heading_slide1{
+    font-size: 2rem;
+    font-weight: 600;
+    flex: 1;
+    min-width: 300px;
+    text-align: center;margin-bottom: 10px;
+    color: var(--Dark-Grayish-Blue);
+
+
+}
+.text_slide1{
+    font-size: 0.92rem;
+    font-weight: 400;
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--Grayish-Blue);
+
+}
+
+.download_button{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.download_ios{
+    border-radius: 20px;
+    background-color: var(--Strong-Cyan);
+    border: 1px solid transparent;
+    font-size: 0.8rem;
+    padding: 12px 15px;
+    color: white;
+
+}
+
+.download_mac{
+
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding: 12px 15px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: var(--Light-Blue);
 }
