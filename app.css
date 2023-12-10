@@ -22,67 +22,63 @@
 }
 
 .main_logo{
-    max-height: 100px;
-    max-width: 100px;
-    margin-bottom: 30px;
+    max-height: 150px;
+    max-width: 150px;
+    margin-bottom: 40px;
 }
 
 .textbox_slide1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    
+    max-width: 650px;
 
 }
 
 .heading_slide1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     flex: 1;
     min-width: 300px;
     text-align: center;margin-bottom: 10px;
     color: var(--Dark-Grayish-Blue);
+    margin-bottom: 15px;
 
 
 }
 
 .text_slide1{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 30px;
     flex: 1;
-    min-width: 300px;
-    max-width: 500px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     color: var(--Grayish-Blue);
+    word-spacing: 2px;
 
 }
 
 .download_button{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     flex-wrap: wrap;
     min-width: 300px;
-    max-width: 500px;
+    max-width: 700px;
 }
 
 .download_ios{
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: var(--Strong-Cyan);
     border: 1px solid transparent;
     font-size: 0.8rem;
-    padding: 12px 15px;
+    padding: 15px 30px;
     color: white;
 
 }
 
 .download_mac{
 
-    border-radius: 20px;
+    border-radius: 25px;
     font-size: 0.8rem;
-    padding: 12px 15px;
+    padding: 15px 30px;
     color: white;
     border: 1px solid transparent;
     background-color: var(--Light-Blue);
@@ -92,21 +88,20 @@
 .slide2{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 100px;
 }
 
 .textbox_slide2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+    max-width: 700px;
+    min-width: 400px;
     
 
 }
 
 
 .heading_slide2{
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: 600;
     flex: 1;
     min-width: 300px;
@@ -132,26 +127,30 @@
 
 .feature_box{
     display: flex;
-    gap: 70px;
+    justify-content: flex-start;
+    width: 100%;
+   
 }
 .computer{
-    max-width: 350px;
-    max-height: 350px;
-    margin-left: -20px;
+    max-width: 700px;
     min-height: 200px;
     min-width: 200px;
+    margin: -35px;
+    flex-shrink:5;
 
 }
 
 .feature{
     max-width: 320px;
+    margin-top: 100px;
+    transform: translate(45%);
 
 }
 
 .feature_heading{
-    font-family:var(--font-family);
+    font-family: var(--font-family);
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--Dark-Grayish-Blue);
     margin-bottom: 10px;
 }
@@ -161,7 +160,135 @@
     font-weight: 400;
     font-size: 0.8rem;
     color: var(--Grayish-Blue);
+    margin-bottom: 50px;
+
+}
+
+
+.slide3{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.textbox_slide3{
+    max-width: 700px;
+    min-width: none;
+
+}
+
+
+.heading_slide3{
+    font-size: 2.2rem;
+    text-align: center;
+    color: var(--Dark-Grayish-Blue);
+    font-family: var(--font-family);
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+
+.text_slide3{
+
+    font-size: 1rem;
+    text-align: center;
+    color: var(--Grayish-Blue);
+    font-family: var(--font-family);
+    font-weight: 400;
+    text-wrap: wrap;
+    word-spacing: 2px;
+    margin-bottom: 100px;
+
+
+}
+
+.devices{
+    min-width: 400px;
+
+}
+
+
+.slide4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textbox_slide4{
+    max-width: 600px;
+}
+
+.heading_slide4{
+    font-size: 2.2rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+.text_slide4{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--font-family);
+    color: var(--Grayish-Blue);
+    margin-bottom: 100px;
+}
+
+.tools{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tool_content{
+    width: 300px;
+    text-align: center;
+}
+
+.tool_text{
+    font-family: var(--font-family);
+    font-size: 0.78rem;
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+    line-height: 20px;
+
+}
+
+.tool_heading{
+    font-family: var(--font-family);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 20px;
+
+}
+
+.toolimage{
     margin-bottom: 30px;
 
+}
+
+.tool2_image{
+    transform: translateY(-14px);
+}
+
+.tool3_image{
+    transform: translateY(-11px);
+}
+
+
+.company_logo{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+}
+
+.logo{
+    width: 140px;
 }
 
