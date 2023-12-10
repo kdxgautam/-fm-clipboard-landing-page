@@ -15,13 +15,18 @@
 
 
 .slide1{
-    margin-top: 100px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
 }
 
 .main_logo{
+    margin-top: 100px;
     max-height: 150px;
     max-width: 150px;
     margin-bottom: 40px;
@@ -121,7 +126,7 @@
     margin-bottom: 40px;
     color: var(--Grayish-Blue);
     line-height: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 
 }
 
@@ -292,3 +297,83 @@
     width: 140px;
 }
 
+
+.slide5{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.textbox_slide5{
+    max-width: 600px;
+    text-align: center;
+}
+
+.heading_slide5{
+    font-size: 2rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 20px;
+}
+
+.text_slide5{
+    
+    font-size: 0.9rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+    margin-bottom: 40px;
+}
+
+.slide6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(0, 0%, 92%);
+    height: 130px;
+    width: 100%;
+
+}
+
+.footlogo{
+    max-width: 50px;
+
+}
+
+.help_info{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    
+    column-gap: 70px;
+    row-gap: 15px;
+
+
+    
+
+}
+
+.text_instalguide{
+    transform: translateX(-23px);
+}
+
+.text_info{
+    color: var(--Grayish-Blue);
+
+
+}
+
+.handle{
+    margin-right: 15px;
+}
+
+.social_handles{
+    
+
+}
