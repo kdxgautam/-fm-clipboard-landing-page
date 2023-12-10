@@ -69,18 +69,19 @@
 }
 
 .download_ios{
-    border-radius: 25px;
+    border-radius: 30px;
     background-color: var(--Strong-Cyan);
     border: 1px solid transparent;
     font-size: 0.8rem;
     padding: 15px 30px;
     color: white;
+    
 
 }
 
 .download_mac{
 
-    border-radius: 25px;
+    border-radius: 30px;
     font-size: 0.8rem;
     padding: 15px 30px;
     color: white;
@@ -135,8 +136,7 @@
 .computer{
     margin: -35px;
     width: 55%;
-    min-width: 20%;
-    flex-shrink: 3;
+    flex-shrink: 2;
 
 }
 
@@ -390,6 +390,9 @@
         align-items: center;
         padding: 0 40px;
     }
+    .computer{
+        width: 100%;
+    }
     .feature{
         text-align: center;
     }
@@ -397,6 +400,7 @@
         row-gap: 60px;
 
     }
+    
     .slide6{
         flex-direction: column;
         align-items: center;
@@ -420,3 +424,13 @@
 
     
 }
+
+.download_ios:hover,.download_mac:hover{
+    cursor:pointer;
+}
+
+.text_info:hover,.handle:hover{
+    cursor: pointer;
+    color: var(--Strong-Cyan);
+}
+
